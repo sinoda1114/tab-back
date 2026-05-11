@@ -7,6 +7,24 @@ It has two tab-navigation shortcuts:
 - `Ctrl+Q`: toggle between the current tab and the previously active tab
 - `Ctrl+Shift+Q`: walk backward through the recent active-tab history
 
+## 日本語
+
+Tab Back は、最近使ったタブへキーボードショートカットで戻るための Chrome 拡張です。
+
+- `Ctrl+Q`: 今のタブと直前に使っていたタブを行き来します
+- `Ctrl+Shift+Q`: 最近使ったタブ履歴を古い方向へ順番に戻ります
+
+外部通信や npm 依存はありません。タブの URL やタイトルも保存しません。
+
+### ローカルでの導入
+
+1. Chrome で `chrome://extensions` を開きます。
+2. `デベロッパー モード` をオンにします。
+3. `パッケージ化されていない拡張機能を読み込む` をクリックします。
+4. このフォルダを選択します。
+
+ショートカットは `chrome://extensions/shortcuts` で確認・変更できます。
+
 ## Shortcuts
 
 Toggle between the current tab and the previous tab:
