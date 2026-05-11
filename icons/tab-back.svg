@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Tab Back</title>
+  <defs>
+    <linearGradient id="bg" x1="20" y1="12" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <path d="M38 35h51c8 0 14 6 14 14v33" fill="none" stroke="#dbeafe" stroke-width="9" stroke-linecap="round"/>
+  <path d="M28 51h51c8 0 14 6 14 14v28c0 8-6 14-14 14H38c-8 0-14-6-14-14V65c0-8 6-14 14-14z" fill="none" stroke="#eff6ff" stroke-width="8" opacity=".98"/>
+  <path d="M58 70 43 85l15 15" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 85h38" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+</svg>
