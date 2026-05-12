@@ -1,6 +1,6 @@
-# Tab Back
+# Tab History Back
 
-A small Chrome extension for jumping back through recently used tabs.
+Tab History Back is a small Chrome extension for jumping back through recently used tabs.
 
 It has two tab-navigation shortcuts:
 
@@ -9,7 +9,8 @@ It has two tab-navigation shortcuts:
 
 ## 日本語
 
-Tab Back は、最近使ったタブへキーボードショートカットで戻るための Chrome 拡張です。
+Tab History Back は、最近使ったタブへキーボードショートカットで戻るための Chrome 拡張です。
+短縮名として Tab Back と呼ぶこともあります。
 
 - `Ctrl+Q`: 今のタブと直前に使っていたタブを行き来します
 - `Ctrl+Shift+Q`: 最近使ったタブ履歴を古い方向へ順番に戻ります
