@@ -2,9 +2,10 @@
   "manifest_version": 3,
   "name": "Tab History Back",
   "short_name": "Tab Back",
-  "description": "Go back to recently used Chrome tabs with keyboard shortcuts.",
-  "version": "0.1.2",
-  "permissions": ["tabs", "storage"],
+  "description": "キーボードショートカットで、直前に使った Chrome タブへ戻ります。",
+  "version": "0.2.2",
+  "permissions": ["tabs", "storage", "alarms", "scripting"],
+  "host_permissions": ["<all_urls>"],
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
@@ -12,7 +13,7 @@
     "128": "icons/icon-128.png"
   },
   "action": {
-    "default_title": "Tab Back",
+    "default_title": "タブ履歴で戻る",
     "default_icon": {
       "16": "icons/icon-16.png",
       "32": "icons/icon-32.png",
@@ -24,17 +25,46 @@
     "service_worker": "background.js"
   },
   "commands": {
-    "toggle-previous-tab": {
+    "00-go-back-tab-history": {
       "suggested_key": {
-        "default": "Ctrl+Q"
+        "default": "Ctrl+Shift+Q",
+        "mac": "MacCtrl+Shift+Q"
       },
-      "description": "Toggle between the current tab and the previous tab"
+      "description": "タブの表示履歴を1つ戻る"
     },
-    "go-back-tab-history": {
+    "01-toggle-previous-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Q"
+        "default": "Ctrl+Q",
+        "mac": "MacCtrl+Q"
       },
-      "description": "Go back one step in tab activation history"
+      "description": "現在のタブと直前のタブを切り替え"
+    },
+    "02-copy-selected-tab-urls": {
+      "description": "選択中のタブのURLをコピー"
+    },
+    "focus-pinned-1": {
+      "description": "ピン留め1番目のタブへ"
+    },
+    "focus-pinned-2": {
+      "description": "ピン留め2番目のタブへ"
+    },
+    "focus-pinned-3": {
+      "description": "ピン留め3番目のタブへ"
+    },
+    "focus-pinned-4": {
+      "description": "ピン留め4番目のタブへ"
+    },
+    "focus-pinned-5": {
+      "description": "ピン留め5番目のタブへ"
+    },
+    "focus-pinned-6": {
+      "description": "ピン留め6番目のタブへ"
+    },
+    "focus-pinned-7": {
+      "description": "ピン留め7番目のタブへ"
+    },
+    "focus-pinned-8": {
+      "description": "ピン留め8番目のタブへ"
     }
   }
 }
